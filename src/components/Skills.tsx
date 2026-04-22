@@ -47,7 +47,7 @@ const skillGroups = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="py-24 bg-gray-900 text-white px-6">
+    <section id="skills" className="relative z-10 py-24 bg-gray-900/90 text-white px-6">
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-bold mb-12 text-center">Skills</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
