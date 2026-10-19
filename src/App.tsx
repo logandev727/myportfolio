@@ -17,7 +17,7 @@ export default function App() {
       <Skills />
       <Contact />
       <footer className="bg-gray-900 text-gray-500 text-center py-6 text-sm border-t border-gray-800">
-        © {new Date().getFullYear()} Logan Darklock. All rights reserved.
+        © {new Date().getFullYear()} Evans Benyeogor. All rights reserved.
       </footer>
     </div>
   );

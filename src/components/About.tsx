@@ -4,9 +4,11 @@ export default function About() {
       <div className="max-w-3xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center">About Me</h2>
         <div className="flex flex-col md:flex-row gap-10 items-center">
-          <div className="w-40 h-40 rounded-full bg-indigo-600 flex-shrink-0 flex items-center justify-center text-5xl">
-            👤
-          </div>
+          <img
+            src="/profile.jpg"
+            alt="Evans Benyeogor"
+            className="w-40 h-40 rounded-full object-cover flex-shrink-0 border-2 border-indigo-500"
+          />
           <div className="text-gray-300 space-y-4">
             <p>
               As a Full Stack Engineer with over 8 years of professional experience, I bring
@@ -28,7 +30,7 @@ export default function About() {
               <a href="https://www.github.com/sven3270350" target="_blank" rel="noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
                 GitHub
               </a>
-              <a href="https://www.linkedin.com/in/logan-darklock-9a342a3b3/" target="_blank" rel="noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
+              <a href="https://www.linkedin.com/in/evansbankx" target="_blank" rel="noreferrer" className="text-indigo-400 hover:text-indigo-300 transition-colors">
                 LinkedIn
               </a>
             </div>
